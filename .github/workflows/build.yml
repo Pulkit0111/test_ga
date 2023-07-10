@@ -4,3 +4,7 @@ jobs :
           runs-on : ubuntu-latest
           steps :
                 - run : node --version
+      second-job :
+          runs-on : macos-latest
+          steps : 
+                - run : npm --version
